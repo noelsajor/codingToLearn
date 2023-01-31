@@ -1,0 +1,100 @@
+/*
+    1. GENERAL LAYOUT
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.header {
+    width: 100%;
+    height: 45px;
+    background: rgba(0, 0, 0, 3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+h2 {
+    font-size: 65px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "SF Pro Display";
+}
+
+.menu-header {
+    height: 100%;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+}
+
+/*
+
+    Sections
+
+*/
+
+.hero-bg {
+    background-image: linear-gradient(#020d1e, #000000);
+}
+
+.Section {
+    width: 100%;
+    padding: 10%;
+}
+
+.section-image {
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+.menu-footer {
+    display: flex;
+}
+
+.legal {
+    display: flex;
+}
+
+.general-wraper {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
